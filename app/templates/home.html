@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>POC Swipe (Tinder-like) UI</title>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+      <link rel="stylesheet" href="/static/style_tinder.css">
+      <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body class="align">
+    <p>
+          <span class="glyphicon glyphicon-log-out"></span> Log out
+        </a>
+      </p>
+  <div class="container">
+  <div class="stack">
+    <div class="final-message">No more documents available. Please check again later.</div>
+    <div class="final-refresh">
+      <button type="button" class="btn btn-default" aria-label="Left Align">
+        <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+      </button>
+    </div>
+    <ul>
+      <li>
+        <div id="docs">
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="btn-controls text-center">
+    <button type="button" class="btn btn-danger js-left-trigger">
+      Reject Doc
+    </button>
+    <button type="button" class="btn btn-primary js-right-trigger">
+      Accept Doc
+    </button>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.js'></script>
+
+    <script src="static/index_tinder.js"></script>
+
+</body>
+</html>
